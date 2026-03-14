@@ -97,7 +97,7 @@ export const techWatchTools: TechWatchTool[] = [
     icon: "🔬",
   },
   {
-    name: "Twitt",
+    name: "Twitter",
     description: "Réseau social d'information en temps réel.",
     url: "https://twitter.com",
     icon: "🐦",
