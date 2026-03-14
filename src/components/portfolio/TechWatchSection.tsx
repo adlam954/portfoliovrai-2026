@@ -79,7 +79,7 @@ export const techWatchItems: TechWatchItem[] = [
     sourceUrl: "https://www.zonebourse.com/actualite-bourse/ericsson-met-en-avant-ses-collaborations-sur-la-6g-lors-du-salon-mwc-ce7e5fd2d18eff2c",
     date: "2026-03",
     tags: ["6G", "Sécurité", "Quantique"],
-    category: "economy",
+    category: "economique",
   },
 ];
 
