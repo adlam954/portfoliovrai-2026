@@ -73,13 +73,13 @@ export const techWatchItems: TechWatchItem[] = [
   },
   {
     id: "tw-6",
-    title: "Sécurité et 6G : les enjeux de la cryptographie quantique",
-    description: "La 6G devra intégrer des mécanismes de sécurité post-quantique pour résister aux futures menaces des ordinateurs quantiques.",
-    source: "ANSSI",
-    sourceUrl: "https://www.ssi.gouv.fr",
-    date: "2024-08",
+    title: "Ericsson met en avant ses collaborations sur la 6G lors du salon MWC.",
+    description: "Ericsson a déclaré dans un communiqué collaborer avec plusieurs acteurs pour développer la prochaine génération de réseaux mobiles, la 6G, ...",
+    source: "zonebourse",
+    sourceUrl: "https://www.zonebourse.com/actualite-bourse/ericsson-met-en-avant-ses-collaborations-sur-la-6g-lors-du-salon-mwc-ce7e5fd2d18eff2c",
+    date: "2026-03",
     tags: ["6G", "Sécurité", "Quantique"],
-    category: "security",
+    category: "economy",
   },
 ];
 
