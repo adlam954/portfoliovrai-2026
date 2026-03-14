@@ -91,9 +91,9 @@ export const techWatchTools: TechWatchTool[] = [
     icon: "📰",
   },
   {
-    name: "IEEE Spectrum",
+    name: "Ma veille Technologique",
     description: "Publications scientifiques sur les réseaux",
-    url: "https://spectrum.ieee.org",
+    url: "/assets/LAvenir-de-la-6G.pdf",
     icon: "🔬",
   },
   {
@@ -121,6 +121,7 @@ const categoryColors: Record<string, string> = {
 
 const categoryLabels: Record<string, string> = {
   infrastructure: "Infrastructure",
+  economique: "Économique",
   security: "Sécurité",
   development: "Développement",
   cloud: "Cloud",

@@ -1,3 +1,5 @@
+import { TechWatchItem } from "@/components/portfolio/TechWatchSection";
+
 export interface Skill {
   name: string;
   level: number; // 1-5
@@ -227,3 +229,4 @@ export const skillCategories = {
   tools: "Outils",
   soft: "Soft Skills",
 };
+
