@@ -71,7 +71,7 @@ export const personalInfo: PersonalInfo = {
   location: "Créteil, 94000",
   email: "adamlam108@gmail.com",
   phone: "06 67 92 54 43",
-  cvUrl: "/assets/cv .pdf", // Remplacer par le lien vers votre CV
+  cvUrl: "/assets/alternance LP 2026.pdf", // Remplacer par le lien vers votre CV
   profileImage: "/profile-photo.jpg",
   socials: [
     { name: "LinkedIn", url: "https://www.linkedin.com/in/adam-lamech-974a63261/?originalSubdomain=fr", icon: "linkedin" },

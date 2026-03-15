@@ -1,3 +1,4 @@
+import  E5Section  from "@/components/portfolio/E5Section";
 import { Helmet } from "react-helmet-async";
 import { Navbar } from "@/components/portfolio/Navbar";
 import { HeroSection } from "@/components/portfolio/HeroSection";
@@ -31,6 +32,7 @@ const Index = () => {
         <ExperienceSection />
         <ProjectsSection />
         <TechWatchSection />
+        <E5Section />
         <ContactSection />
       </main>
       <Footer />
