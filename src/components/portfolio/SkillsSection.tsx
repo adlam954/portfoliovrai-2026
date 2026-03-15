@@ -53,6 +53,7 @@ export function SkillsSection() {
             Technologies et savoir-faire que je maîtrise
           </p>
         </div>
+        
 
         {/* Skills Grid by Category */}
         <div className="space-y-12">
@@ -77,6 +78,69 @@ export function SkillsSection() {
           })}
         </div>
       </div>
+      {/* Certifications */}
+<div className="mt-20">
+  <h3 className="text-2xl md:text-3xl font-bold text-center mb-10">
+    Certifications
+  </h3>
+
+  <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+
+    {/* PIX */}
+    <div className="bg-card p-6 rounded-xl shadow hover:shadow-lg transition text-center">
+      <img
+        src="/assets/pix.png"
+        alt="Certification PIX"
+        className="h-16 mx-auto mb-4"
+      />
+
+      <h4 className="font-semibold text-lg mb-2">
+        Certification PIX
+      </h4>
+
+      <p className="text-sm text-muted-foreground mb-4">
+        Certification des compétences numériques
+      </p>
+
+      <p className="text-xs mb-4">
+        Obtenue en 2026
+      </p>
+
+      <a
+        href="/assets/pix.pdf"
+        target="_blank"
+        className="bg-primary text-white px-4 py-2 rounded-lg text-sm hover:opacity-90"
+      >
+        Voir la certification
+      </a>
+    </div>
+
+
+    {/* Coursera */}
+    <div className="bg-card p-6 rounded-xl shadow hover:shadow-lg transition text-center">
+      <img
+        src="/assets/coursera html,css,java.png"
+        alt="Certification Coursera"
+        className="h-16 mx-auto mb-4"
+      />
+
+      <h4 className="font-semibold text-lg mb-2">
+        Certification Coursera
+      </h4>
+
+      <p className="text-sm text-muted-foreground mb-4">
+        HTML, CSS et JavaScript
+      </p>
+
+      <p className="text-xs mb-4">
+        Obtenue en 2024
+      </p>
+
+    </div>
+
+  </div>
+</div>
     </section>
   );
+  
 }

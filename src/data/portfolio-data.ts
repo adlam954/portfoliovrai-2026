@@ -127,7 +127,7 @@ export const experiences: Experience[] = [
     company: "OMC",
     location: "Maisons-Alfort",
     startDate: "Mai 2025",
-    endDate: "Présent",
+    endDate: "Juin 2025",
     description: "Stage en entreprise dans le domaine de l'informatique.",
     achievements: [
       "Support utilisateur et dépannage informatique",
@@ -135,6 +135,24 @@ export const experiences: Experience[] = [
       "Gestion du parc informatique",
       "Documentation des procédures techniques",
     ],
+    pdf: "/assets/stage2025 (2).pdf", // Lien vers le rapport de stage au format PDF
+  },
+  {
+    id: "exp-2",
+    title: "Technicien Informatique",
+    company: "OMC",
+    location: "Maisons-Alfort",
+    startDate: "Janvier 2026",
+    endDate: "Février 2026",
+    description: "Stage en entreprise dans le domaine de l'informatique.",
+    achievements: [
+      "Support utilisateur et dépannage informatique",
+      "Installation et configuration de postes de travail",
+      "Gestion du parc informatique",
+      "Documentation des procédures techniques",
+      "Proposition d'améliorations pour l'infrastructure informatique",
+    ],
+    pdf: "/assets/stage2026.pdf", // Lien vers le rapport de stage au format PDF
   },
 ];
 

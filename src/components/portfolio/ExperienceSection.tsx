@@ -56,6 +56,15 @@ export function ExperienceSection() {
                       </div>
 
                       <p className="text-sm text-muted-foreground mb-4">{exp.description}</p>
+                      {exp.pdf && (
+  <a
+    href={exp.pdf}
+    target="_blank"
+    className="inline-block mt-4 mb-4 bg-primary text-white px-8 py-2 rounded-lg text-sm hover:opacity-90"
+  >
+    Voir le rapport de stage
+  </a>
+)}
 
                       <ul className="space-y-2">
                         {exp.achievements.map((achievement, i) => (
