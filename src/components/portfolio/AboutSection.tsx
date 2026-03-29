@@ -81,7 +81,7 @@ export function AboutSection() {
               <div className="mt-8 pt-6 border-t border-border grid grid-cols-2 gap-4">
                 <div>
                   <div className="text-sm text-muted-foreground mb-1">Âge</div>
-                  <div className="font-semibold">20 ans</div>
+                  <div className="font-semibold">21 ans</div>
                 </div>
                 <div>
                   <div className="text-sm text-muted-foreground mb-1">Statut</div>

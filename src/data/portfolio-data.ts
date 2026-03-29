@@ -67,7 +67,7 @@ export const personalInfo: PersonalInfo = {
   name: "Adam Lamech",
   title: "BTS SIO",
   tagline: "Étudiant BTS SIO option SISR passionné par l'infrastructure et le réseau.",
-  bio: "Étudiant en première année de BTS SIO option SISR, je souhaite continuer mes études en licence professionelle Administration et Sécurité des Réseaux, des Systèmes et des Applications.",
+  bio: "Étudiant en deuxième année de BTS SIO option SISR, je souhaite continuer mes études en licence professionelle Administration et Sécurité des Réseaux, des Systèmes et des Applications.",
   location: "Créteil, 94000",
   email: "adamlam108@gmail.com",
   phone: "06 67 92 54 43",
@@ -102,22 +102,22 @@ export const skills: Skill[] = [
   { name: "SQL", level: 3, category: "backend" },
   
   // DevOps / Infrastructure
-  { name: "Windows Server", level: 3, category: "devops" },
+  { name: "Windows Server", level: 4, category: "devops" },
   { name: "Linux", level: 3, category: "devops" },
-  { name: "Active Directory", level: 3, category: "devops" },
-  { name: "Virtualisation", level: 3, category: "devops" },
+  { name: "Active Directory", level: 4, category: "devops" },
+  { name: "Virtualisation", level: 4, category: "devops" },
   { name: "Réseau TCP/IP", level: 3, category: "devops" },
   
   // Outils
   { name: "VS Code", level: 4, category: "tools" },
   { name: "Git", level: 3, category: "tools" },
   { name: "Office 365", level: 4, category: "tools" },
-  { name: "VirtualBox/VMware", level: 3, category: "tools" },
+  { name: "VirtualBox/VMware", level: 4, category: "tools" },
   
   // Soft Skills
   { name: "Travail d'équipe", level: 5, category: "soft" },
   { name: "Communication", level: 4, category: "soft" },
-  { name: "Résolution de problèmes", level: 4, category: "soft" },
+  { name: "Résolution de problèmes", level: 5, category: "soft" },
 ];
 
 export const experiences: Experience[] = [
@@ -236,6 +236,50 @@ export const projects: Project[] = [
     technologies: ["Veille Technologique", "LinkedIn", "Portfolio", "Formation", "Certification"],
     results: "Identité numérique structurée et plan de développement professionnel établi",
     pdfUrl: "/assets/tp1.pdf",
+    featured: false,
+  },
+  {
+    id: "proj-6",
+    title: "Analyse d'impact relative à la protection des données ",
+    description: "Ce TP consiste à analyser les enjeux liés à la protection des données personnelles au sein d’une entreprise. Il aborde la mise en conformité au RGPD, l’identification des risques liés aux cyberattaques et la sensibilisation des utilisateurs aux bonnes pratiques de sécurité informatique.",
+    role: "Étudiant BTS SIO",
+    image: "/assets/impact.jpg",
+    technologies: ["RGPD", "Cybersécurité", "Analyse de risques", "Sensibilisation utilisateurs", "Protection des données"],
+    results: "Identification des risques liés aux données personnelles, mise en place de recommandations de sécurité et sensibilisation des employés aux enjeux du RGPD et des cybermenaces.",
+    pdfUrl: "/assets/Analyse d'impact.pdf",
+    featured: false,
+  },
+  {
+    id: "proj-7",
+    title: "PHP ",
+    description: "Ce TP a pour objectif de maîtriser les bases du langage PHP à travers la manipulation d’expressions logiques, d’opérateurs de comparaison et de structures conditionnelles. Il permet de comprendre le fonctionnement des évaluations booléennes et leur utilisation dans un contexte de développement web.",
+    role: "Étudiant BTS SIO",
+    image: "/assets/PHP.png",
+    technologies: ["PHP", "Programmation", "Développement Web"],
+    results: "Maîtrise des bases du langage PHP et compréhension de leur utilisation dans un contexte de développement web",
+    pdfUrl: "/assets/TP PHP.pdf",
+    featured: false,
+  },
+  {
+    id: "proj-8",
+    title: "Veille technologique l’avenir de la 6G",
+    description: "Cette veille technologique porte sur l’évolution des réseaux mobiles vers la 6G. Elle analyse les innovations attendues telles que l’augmentation des débits, la réduction de la latence, l’intégration de l’intelligence artificielle dans les réseaux et le développement de nouvelles applications comme les villes intelligentes, la réalité augmentée et l’Internet des objets.",
+    role: "Étudiant BTS SIO",
+    image: "/assets/6g.jpg",
+    technologies: ["6G", "Réseaux mobiles", "Veille technologique", "IoT", "Intelligence artificielle"],
+    results: "Compréhension des enjeux futurs des réseaux télécoms, identification des innovations majeures liées à la 6G et mise en place d’une veille permettant de suivre les évolutions technologiques et leurs impacts sur les infrastructures réseau.",
+    pdfUrl: "/assets/LAvenir-de-la-6G.pdf.pdf",
+    featured: false,
+  },
+  {
+    id: "proj-9",
+    title: "Lancement du projet EcoInfoGreen",
+    description: "Ce projet consiste à organiser et planifier la création d’un site web visant à sensibiliser les utilisateurs à l’impact écologique du numérique. Le site a pour objectif de permettre aux familles de calculer leur empreinte numérique et de recevoir des conseils personnalisés pour la réduire. Le travail réalisé porte principalement sur la répartition des tâches, l’organisation des équipes et la mise en place d’un planning de projet.",
+    role: "Étudiant BTS SIO",
+    image: "/assets/green.webp",
+    technologies: ["Gestion de projet", "Organisation d’équipe", "Planification", "Numérique responsable"],
+    results: "Mise en place d’une organisation de projet structurée avec répartition des rôles, définition des tâches et élaboration d’un planning permettant d’assurer le bon déroulement du développement du site.",
+    pdfUrl: "/assets/tp bilet.pdf",
     featured: false,
   },
 ];
