@@ -60,7 +60,7 @@ export function HeroSection() {
               {[
                 { value: "BTS SIO", label: "Formation" },
                 { value: "B2", label: "Anglais" },
-                { value: "20 ans", label: "Âge" },
+                { value: "21 ans", label: "Âge" },
               ].map((stat) => (
                 <div key={stat.label} className="text-center">
                   <div className="text-2xl font-bold text-gradient">{stat.value}</div>
